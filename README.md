@@ -13,3 +13,21 @@ Luego de esto cree mi esquema a subir identificando los elementos que debia cont
 El esquema simboliza el uso de un sitio de streaming de musica el cual deberia estar en varias regiones, ademas de permitirse alta escalabilidad y soporte de usuarios. Es comparable al uso de streaming de video como los cuales ya son clientes de esta base de datos.
 
 video presentacion (sin editar): https://youtu.be/y4-Y-wepqRc
+
+Otros enlaces de interes:
+AWS-Dynamo:
+Descarga local p1: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/DynamoDBLocal.html
+Descarga local p2: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html#DynamoDBLocal.DownloadingAndRunning.title
+Configuracion AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html
+Uso p1: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/Tools.CLI.html
+Uso p2: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/getting-started-step-1.html
+Tipos atributo: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/APIReference/API_AttributeValue.html
+Creacion y atributos de tabla: https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_CreateTable.html
+Ejemplo datos con JSON: https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/SampleData.CreateTables.html
+Uso de scan: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/Scan.html
+
+GO:
+SDK: https://aws.amazon.com/sdk-for-go/
+Ejemplo de uso nro1: https://docs.aws.amazon.com/es_es/amazondynamodb/latest/developerguide/example_dynamodb_Scenario_GettingStartedMovies_section.html
+Ejemplo de uso nro2: https://tutuz-tech.hatenablog.com/entry/2020/06/19/231534
+Configuracion: https://docs.aws.amazon.com/es_es/sdk-for-go/v1/developer-guide/configuring-sdk.html
