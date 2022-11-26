@@ -1,0 +1,51 @@
+{
+    "artist": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"0"},
+                    "location": {"S":"Caribe"},
+                    "name": {"S":"Bad Bunny"},
+                    "albums": {
+                      "L": [
+                            {"S":"Loolapaliza 2035"},
+                            {"S":"Nose"}
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"1"},
+                    "location": {"S":"Inglaterra"},
+                    "name": {"S":"Beethoven"},
+                    "albums": {
+                      "L": [
+                            {"S":"Loolapaliza 2035"},
+                            {"S":"Sonatas"}
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"2"},
+                    "location": {"S":"Argentina"},
+                    "name": {"S":"Chaqueño Palavecino"},
+                    "albums": {
+                      "L": [
+                            {"S":"Loolapaliza 2035"},
+                            {"S":"Manaos"}
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
+
+

@@ -1,0 +1,34 @@
+  {
+    "user": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"1"},
+                    "username": {"S":"Usuario nro1"},
+                    "gender": {"S":"Femenino"},
+                    "level": {"N":"1"}
+                }
+            }
+        },
+       {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"2"},
+                    "username": {"S":"Usuario nro2"},
+                    "gender": {"S":"Masculino"},
+                    "level": {"N":"1"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"3"},
+                    "username": {"S":"Usuario nro3"},
+                    "gender": {"S":"Prefiere no decirlo"},
+                    "level": {"N":"1"}
+                }
+            }
+        }
+    ]
+}

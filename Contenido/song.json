@@ -1,0 +1,77 @@
+{
+    "song": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"0"},
+                    "duration": {"N":"356"},
+                    "year": {"N":"2035"},
+                    "title": {"S":"Cancion nro 1"},
+                    "artist": {"S":"Bad Bunny"},
+                    "album": {"S":"Loolapaliza 2035"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"1"},
+                    "duration": {"N":"300"},
+                    "year": {"N":"2035"},
+                    "title": {"S":"Cancion nro 5"},
+                    "artist": {"S":"Beethoven"},
+                    "album": {"S":"Loolapaliza 2035"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"2"},
+                    "duration": {"N":"266"},
+                    "year": {"N":"2035"},
+                    "title": {"S":"Cancion nro 9"},
+                    "artist": {"S":"Chaqueño Palavecino"},
+                    "album": {"S":"Loolapaliza 2035"}
+                }
+            }
+        },
+         {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"3"},
+                    "duration": {"N":"356"},
+                    "year": {"N":"2035"},
+                    "title": {"S":"Conejo malo"},
+                    "artist": {"S":"Bad Bunny"},
+                    "album": {"S":"Nose"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"4"},
+                    "duration": {"N":"300"},
+                    "year": {"N":"2035"},
+                    "title": {"S":"Sonata de verano"},
+                    "artist": {"S":"Beethoven"},
+                    "album": {"S":"Sonatas"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"5"},
+                    "duration": {"N":"266"},
+                    "year": {"N":"2035"},
+                    "title": {"S":"Vamos Manaos!"},
+                    "artist": {"S":"Chaqueño Palavecino"},
+                    "album": {"S":"Manaos"}
+                }
+            }
+        }
+    ]
+}
+

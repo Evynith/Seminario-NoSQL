@@ -1,0 +1,80 @@
+ 
+{
+    "album": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"0"},
+                    "title": {"S":"Loolapaliza 2035"},
+                    "artists": {
+                        "L": [
+                            {"S":"Bad Bunny"}
+                            ]
+                    },
+                    "songs": {
+                        "L": [
+                            {"S":"Cancion nro 1"},
+                            {"S":"Cancion nro 5"},
+                            {"S":"Cancion nro 9"}
+                            ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"1"},
+                    "title": {"S":"Nose"},
+                    "artists": {
+                        "L": [
+                            {"S":"Bad Bunny"}
+                            ]
+                    },
+                    "songs": {
+                        "L": [
+                            {"S":"Conejo malo"}
+                            ]
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"2"},
+                    "title": {"S":"Sonatas"},
+                    "artists": {
+                        "L": [
+                            {"S":"Beethoven"}
+                            ]
+                    },
+                    "songs": {
+                        "L": [
+                            {"S":"Sonata de verano"}
+                            ]
+                    }
+                }
+            }
+        },
+          {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"3"},
+                    "title": {"S":"Manaos"},
+                    "artists": {
+                        "L": [
+                            {"S":"Chaqueño Palavecino"}
+                            ]
+                    },
+                    "songs": {
+                        "L": [
+                            {"S":"Vamos Manos!"}
+                            ]
+                    }
+                }
+            }
+        }
+    ]
+}
+

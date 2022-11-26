@@ -1,0 +1,43 @@
+ {
+    "songplay": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"0"},
+                    "user": {"N":"1"},
+                    "level": {"N":"4"},
+                    "song": {"S":"Cancion nro 1"},
+                    "artist": {"S":"Bad Bunny"},
+                    "session": {"N":"4"},
+                    "location": {"S":"Argentina"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"1"},
+                    "user": {"N":"2"},
+                    "level": {"N":"4"},
+                    "song": {"S":"Cancion nro 5"},
+                    "artist": {"S":"Beethoven"},
+                    "session": {"N":"4"},
+                    "location": {"S":"Argentina"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"N":"2"},
+                    "user": {"N":"3"},
+                    "level": {"N":"4"},
+                    "song": {"S":"Cancion nro 9"},
+                    "artist": {"S":"Chaqueño Palavecino"},
+                    "session": {"N":"4"},
+                    "location": {"S":"Argentina"}
+                }
+            }
+        }
+    ]
+}
