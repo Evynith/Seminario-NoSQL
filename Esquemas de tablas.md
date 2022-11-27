@@ -1,3 +1,5 @@
+### songplay
+```sh
 aws --endpoint-url http://localhost:8000 dynamodb create-table \
 --table-name songplay \
     --attribute-definitions \
@@ -7,7 +9,10 @@ aws --endpoint-url http://localhost:8000 dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --table-class STANDARD
+```
 
+### song
+```
 aws --endpoint-url http://localhost:8000 dynamodb create-table \
     --table-name song \
     --attribute-definitions \
@@ -19,7 +24,10 @@ aws --endpoint-url http://localhost:8000 dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --table-class STANDARD
+```
 
+### artist
+```sh
 aws --endpoint-url http://localhost:8000 dynamodb create-table \
   --table-name artist \
     --attribute-definitions \
@@ -31,7 +39,10 @@ aws --endpoint-url http://localhost:8000 dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --table-class STANDARD
+```
 
+### album
+```sh
 aws --endpoint-url http://localhost:8000 dynamodb create-table \
   --table-name album \
     --attribute-definitions \
@@ -43,7 +54,10 @@ aws --endpoint-url http://localhost:8000 dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --table-class STANDARD
+```
 
+### user
+```sh
 aws --endpoint-url http://localhost:8000 dynamodb create-table \
   --table-name user \
     --attribute-definitions \
@@ -55,3 +69,4 @@ aws --endpoint-url http://localhost:8000 dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=5,WriteCapacityUnits=5 \
     --table-class STANDARD
+```
