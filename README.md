@@ -12,7 +12,7 @@ Luego de esto cree mi esquema a subir identificando los elementos que debia cont
 
 El esquema simboliza el uso de un sitio de streaming de musica el cual deberia estar en varias regiones, ademas de permitirse alta escalabilidad y soporte de usuarios. Es comparable al uso de streaming de video como los cuales ya son clientes de esta base de datos.</br>
 
-[ver video del timelapse](https://youtu.be/y4-Y-wepqRc)
+[ver video presentacion](https://youtu.be/XfhLsqUD-2Y)
 
 ### Otros enlaces de interes:
 #### AWS-Dynamo:
